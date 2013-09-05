@@ -1,4 +1,12 @@
 <?php
+/**
+* Duplicate the functionality of in_array()
+* @category Utility
+* @package Design Patterns
+* @copyright Copyright (c)  Carl Parrish 2013
+* @author Carl Parrish
+*
+**/
 
 class Search
 {
