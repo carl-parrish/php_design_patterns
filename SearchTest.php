@@ -9,7 +9,7 @@ class SearchTest extends PHPUnit_Framework_TestCase
     }
     
     public function testFirstLevelMatch(){
-        $this->assertTrue($this->finder->my_in_array($this->testArray, 'Carl'));
+        $this->assertTrue($this->finder->my_in_array('Carl',$this->testArray));
     }
     
 
