@@ -9,7 +9,8 @@ class Singleton {
     public function __construct() {}
     public function __get($name)
     {
-        if(array_key_exists($name, self::$props) {
+        if(array_key_exists($name, self::$props))
+        {
             return self::$props[$name];
         }
     }
