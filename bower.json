@@ -1,0 +1,28 @@
+{
+  "name": "design_patterns",
+  "version": "0.0.0",
+  "homepage": "https://github.com/carl-parrish/php_design_patterns",
+  "authors": [
+    "cparrish <cparrish@carlparrish.com>"
+  ],
+  "description": "reference design patterns in various languages",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "Design",
+    "Patterns",
+    "PHP7"
+  ],
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.9.0"
+  }
+}

@@ -6,7 +6,7 @@
     "config": {
       "bin-dir":  "bin"
     },
-    "autoload": {"psr-0": {"": "src"}}
+    "autoload": {"psr-4": {"": "src"}}
 
 
 }
